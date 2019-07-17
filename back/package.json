@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "npx eslint --fix .",
     "start": "npx nodemon app",
+    "precommit": "npx lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
